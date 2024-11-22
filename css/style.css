@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100svh;
+    max-height: 100svh;
+    max-width: 100svw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+background-image: url(../images/galaxy.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#370938;
+   text-align: center;
+    border:5px solid #370938;
+    border-radius: 20px;
+    width: 350px;
+    height: 500px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(236, 231, 204);
+    background-color:#370938;
+}
+
+.www{
+    color: rgb(145, 119, 7);
+    background-color:#370938;
+    border-radius: 5px;
+    margin-right: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.hhh{
+    color: rgb(145, 119, 7);
+    background-color:#370938;
+    border-radius: 5px;
+    margin-right: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#weight{
+    color: rgb(145, 119, 7);
+    font-size: 30px;
+    background-color:#370938;
+    padding: 5px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+#height{
+    color: rgb(145, 119, 7);
+    font-size: 30px;
+    background-color:#370938;
+    padding: 5px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+button{
+    color: rgb(128, 105, 7);
+    background-color:#9c9e29;
+font-size: 30px;
+padding:10px;
+width: 80%;
+border-radius: 40px;
+
+}
+
+button:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+
+#bmilabel{
+    color: black;
+    font-size: 30px;
+    background-color:#b9ba76;
+    padding: 5px;
+    
+
+}
+
+#output{
+    color: rgb(145, 119, 7);
+    font-size: 30px;
+
+}
